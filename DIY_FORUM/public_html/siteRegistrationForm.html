@@ -5,11 +5,12 @@
 	<title>Register</title>
 </head>
 	<body>
-<ul>
+<ul >
 	<li><a href="home.html">Home</a></li>
 </ul>
 
 	<div id="registration_Form">
+	
 		<form>	
 		<h1> Register for DIY Forum</h1>
 		<table>
@@ -79,25 +80,32 @@
 		<td><input type="checkbox" id="other_checkbox" name="other_checkbox" value="Other" /> </td>
 		</tr>
 	</table>
+	
 	</fieldset>
-	<fieldset style="width:275px" >
-<label for="DIY_Topic">DIY Focus</label>
+
+
+	<fieldset style="width:275px;">
+<label for="DIY_Topic">DIY Focus&colon;</label>
     <input name="DIY_Topic" id="DIY_Topic" list="DIY_datalist" placeholder="Enter DIY Topic Here" ><br />
-    <datalist id="DIY_datalist">	
+    <datalist id="DIY_datalist" >	
 
     	<select> 
     		<option  label= "Arts &amp; Crafts" value="Arts &amp; Crafts"></option>
-			<option  label= "Cooking" value="Cooking"> </option>
+			<option  label= "Cooking" value="Cooking"> </option>	
+			<option  label= " Elementry Science Experiements" value=" Elementry Science Experiements"></option>
 			<option  label= "Fishing"  value="Fishing"></option>
-			<option  label= "Science Experiements" value="Science Experiements"></option>
+		
 			<option label= "Woodworking" value="Woodworking"></option>
 
     	</select>
-    </datalist>
 
-    <label for="states">State</label>
-    <input name="states" id="states" list="states_datalist" placeholder="Enter State Here" >
-    <datalist id="states_datalist">	
+
+    	<!--http://alphabetizer.flap.tv/lists/list-of-states-in-alphabetical-order.php This is where i checked the spelling and order of the states at  -->
+    </datalist >
+
+    <label for="states">State&colon;</label>
+    <input name="states" id="states" list="states_datalist"    placeholder="Enter State Here" >
+    <datalist id="states_datalist" >	
 
     	<select> 
     		<option  label= "Alabama" value="Alabama"></option>
@@ -105,7 +113,55 @@
 			<option  label= "Arizona"  value="Arizona"></option>
 			<option  label= "Arkansas" value="Arkansas"></option>
 			<option label= "California" value="California"></option>
+			<option  label= "Colorado" value="Colorado"></option>
+			<option  label= "Connecticut" value="Connecticut"> </option>
+			<option  label= "Delaware"  value="Delaware"></option>
+			<option  label= "Florida" value="Florida"></option>
+			<option label= "Georgia" value="Georgia"></option>
+			<option  label= "Hawaii" value="Hawaii"></option>
+			<option  label= "Idaho" value="Idaho"> </option>
+			<option  label= "Illinois"  value="Illinois"></option>
+			<option  label= "Indiana" value="Indiana"></option>
 			<option label= "Iowa" value="Iowa"></option>
+			<option label= "Kansas" value="Kansas"></option>
+			<option  label= "Kentucky" value="Kentucky"></option>
+			<option  label= "Louisiana" value="Louisiana"> </option>
+			<option  label= "Maine"  value="Maine"></option>
+			<option label= "Maryland" value="Maryland"></option>
+			<option label= "Montana" value="Montana"></option>
+			<option  label= "Massachusetts" value="Massachusetts"></option>
+			<option label= "Michigan" value="Michigan"></option>
+			<option  label= "Minnesota" value="Minnesota"> </option>
+			<option  label= "Mississippi"  value="Mississippi"></option>
+			<option  label= "Missouri" value="Missouri"></option>
+			<option  label= "Nebraska" value="Nebraska"></option>
+			<option  label= "Nevada" value="Nevada"> </option>
+			<option  label= "New Hampshire"  value="New Hampshire"></option>
+			<option  label= "New Jersey" value="New Jersey"></option>
+			<option label= "New Mexico" value="New Mexico"></option>
+			<option  label= "New York" value="New York"></option>
+			<option  label= "North Carolina" value="North Carolina"> </option>
+			<option  label= "North Dakota"  value="North Dakota"></option>
+			<option  label= "Ohio" value="Ohio"></option>
+			<option label= "Oklahoma" value="Oklahoma"></option>	
+			<option  label= "Oregon"  value="Oregon"></option>
+			<option  label= "Pennsylvania" value="Pennsylvania"></option>
+			<option  label= "Rhode Island" value="Rhode Island"> </option>
+			<option  label= "South Carolina"  value="South Carolina"></option>
+			<option  label= "South Dakota" value="South Dakota"></option>
+			<option label= "Tennessee" value="Tennessee"></option>
+			<option label= "Texas" value="Texas"></option>
+			<option  label= "Utah" value="Utah"></option>
+			<option  label= "Vermont" value="Vermont"> </option>
+			<option  label= "Virginia"  value="Virginia"></option>
+			<option  label= "Washington" value="Washington"></option>
+			<option label= "West Virginia" value="West Virginia"></option>
+			<option  label= "Wisconsin" value="Wisconsin"> </option>
+			<option  label= "Wyoming" value="Wyoming"></option>
+		
+			
+
+			
 
     	</select>
     </datalist>
@@ -128,14 +184,30 @@
 
 
 		</fieldset>
-
+		
 			<input name="Register_to_site" id="Register_to_site"  type="submit"  value="Register"  />
 		
 
-
 			</form>
 
+			
+			
 			</div>
-	
+	<!-- Footer Developed by Michael Borland-->
+
+			<div  id="DIY_footer">
+				<footer  id="foot" class="style_foot" >
+					<p class="style_foot">DIY Forum 2016 Fall Semester </p>
+					<p> Developed as part of CIS-120 Web Development course.</p>
+					<p>Contributing Developers: Michael Borland and Paul Whalen</p>
+					<br />
+					<em>Contact Information</em>
+					<p class="style_foot"> Developer Phone:777-555-9999</p>
+					<p class="style_foot"> Business Email:DIY_Forum_Dev@gmail.com </p>
+					<em>Disclaimer: All contact info, is false and for assignment purposes.</em>
+				</footer>
+			</div>	
+
+
 			</body>
 </html>
