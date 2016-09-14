@@ -8,7 +8,7 @@
 	<!-- Page Coded by Michael Borland -->
 <div id="logo">
 <a href="home.html">
-	<img src="images/DIY_Forum_Badge.png" alt="Welcome to DIY Forum">
+	<img src="images/DIY_Forum_Badge.png" alt="Welcome to DIY Forum" style="width:80px;height:63px">
 	</a>
 </div>
 	
@@ -62,62 +62,11 @@
 		<td><label for="registration_confirm_pass"> Confirm Password&colon;</label></td>	
 		<td><input type="password" id="registration_confirm_pass" name="registration_confirm_pass" placeholder="Re-enter New Password" /></td>	
 		</tr>
-</table>
 
-<fieldset style="width:275px">		
-<table>
-	
-		<tr>
-		<td>Gender&colon;</td>	
-		</tr>
-		<tr>
-		<td><label  for="male_Checkbox"> Male</label></td>	
-		 <td><input type="checkbox" id="male_Checkbox" name="male_Checkbox" value="Male" /></td>
-		</tr>
-		<tr>
-		 	<td><label for="female_Checkbox"> Female</label></td>
-		<td><input type="checkbox" id="female_Checkbox" name="female_Checkbox" value="Female" /> </td>
-		</tr>
-		<tr>
-			<td><label for="transgender_checkbox"> Transgender</label></td>
-		
-		 <td><input type="checkbox" id="transgender_checkbox" name="transgender_checkbox" value="Transgender" /> </td>
-		 <tr>
-		 <td><label for="other_checkbox"> Other</label></td>
-		
-		<td><input type="checkbox" id="other_checkbox" name="other_checkbox" value="Other" /> </td>
-		</tr>
-	</table>
-	
-	</fieldset>
-
-
-	<fieldset style="width:275px;">
-<label for="DIY_Topic">DIY Focus&colon;</label>
-    <input name="DIY_Topic" id="DIY_Topic" list="DIY_datalist" placeholder="Enter DIY Topic Here" ><br />
-    <datalist id="DIY_datalist" >	
-
-    	<select> 
-    		<option  label= "Arts &amp; Crafts" value="Arts &amp; Crafts"></option>
-			<option  label= "Cooking" value="Cooking"> </option>	
-			<option  label= " Elementry Science Experiements" value=" Elementry Science Experiements"></option>
-			<option  label= "Fishing"  value="Fishing"></option>
-			<option label= "Not Listed Here" value="Not Listed Here"></option>
-			<option label= "Woodworking" value="Woodworking"></option>
-
-		
-
-    	</select>
-
-
+	<tr>
+		<td>States&colon;</td>
+    	<td><select> 
     	<!--http://alphabetizer.flap.tv/lists/list-of-states-in-alphabetical-order.php This is where i checked the spelling and order of the states at  -->
-    </datalist >
-
-    <label for="states">State&colon;</label>
-    <input name="states" id="states" list="states_datalist"    placeholder="Enter State Here" >
-    <datalist id="states_datalist" >	
-
-    	<select> 
     		<option  label= "Alabama" value="Alabama"></option>
 			<option  label= "Alaska" value="Alaska"> </option>
 			<option  label= "Arizona"  value="Arizona"></option>
@@ -173,27 +122,72 @@
 
 			
 
-    	</select>
-    </datalist>
-</fieldset>
+    	</select></td>
+		</tr>
+<tr>	<td>DIY Focus&colon;</td>
 
-
-
-
+    	<td><select> 
+    		<option  label= "Arts &amp; Crafts" value="Arts &amp; Crafts"></option>
+			<option  label= "Cooking" value="Cooking"> </option>	
+			<option  label= " Elementry Science Experiements" value=" Elementry Science Experiements"></option>
+			<option  label= "Fishing"  value="Fishing"></option>
+			<option label= "Not Listed Here" value="Not Listed Here"></option>
+			<option label= "Woodworking" value="Woodworking"></option>
 
 		
+
+    	</select></td>
+
+		</tr>
+
+
+   
+</table>
+
+<fieldset style="width:275px">		
+<table>
+	
+		<tr>
+		<td>Gender&colon;</td>	
+		</tr>
+		<tr>
+		<td><label  for="male_Checkbox"> Male</label></td>	
+		 <td><input type="checkbox" id="male_Checkbox" name="male_Checkbox" value="Male" /></td>
+		</tr>
+		<tr>
+		 	<td><label for="female_Checkbox"> Female</label></td>
+		<td><input type="checkbox" id="female_Checkbox" name="female_Checkbox" value="Female" /> </td>
+		</tr>
+		<tr>
+			<td><label for="transgender_checkbox"> Transgender</label></td>
+		
+		 <td><input type="checkbox" id="transgender_checkbox" name="transgender_checkbox" value="Transgender" /> </td>
+		 <tr>
+		 <td><label for="other_checkbox"> Other</label></td>
+		
+		<td><input type="checkbox" id="other_checkbox" name="other_checkbox" value="Other" /> </td>
+		</tr>
+	
+	</table>
+	
+	</fieldset>
+
+
+	
+   
+
+	
+	
 		<fieldset style="width:275px">
+
 		<p>Do you agree with Terms and Conditions&quest;<a href="terms_And_Conditions.html">Terms and Conditions</a></p>
 		<label for="i_Agree">Terms And Conditions</label><br />
 		<input type="radio" id="i_Agree" name="i_Agree" value="I Agree" />I Agree<br />
 		<input type="radio" id="i_Disagree" name="i_Disagree" value="I Disagree" />I Disagree<br />
 
 
-
-			
-
-
 		</fieldset>
+		<br />
 		
 			<input name="Register_to_site" id="Register_to_site"  type="submit"  value="Register"  />
 		
