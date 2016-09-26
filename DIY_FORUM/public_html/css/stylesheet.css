@@ -10,11 +10,77 @@ body
     height: 105px;
     
 }
+
 nav ul
 {
-    background: #485ACF;
+    background-color: #485ACF;
     list-style-type: none;
     margin: 0px;
-    padding: 10px;
+    padding: 0px;
     overflow: hidden;
+    font-family: Calibri, sans-serif;	
+}
+nav li 
+{
+	float: left;
+}
+nav li a 
+{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+nav li a:hover 
+{
+  color: white;
+  background-color: #1226a0;
+}
+h1
+{
+   color: white;
+   background-color: #192677;
+   padding: 5px;
+   font-size: 30px;
+   font-family: Calibri, sans-serif;
+   
+}
+
+.articles_posting
+{
+    background-color: white;
+    font-size: 20px;
+    font-family: Calibri, sans-serif;
+    padding: 5px;
+}
+#supp_links
+{
+   background-color: white;
+   font-size: 20px;
+   font-family: Calibri, sans-serif;
+   padding: 5px;
+}
+#supp_links ul, li a
+{
+	text-decoration: none;
+   	list-style-type: none;
+}
+#supp_links a:hover
+{
+	color: black;	
+}
+
+
+hr 
+{
+    height: 1px;
+    border: 0px;
+    background-color: black;
+}
+
+footer
+{
+    line-height: 10px;
+    font-size: 10px;
 }
