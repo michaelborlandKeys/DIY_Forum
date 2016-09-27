@@ -1,14 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Sign In</title>
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+	<meta charset="UTF-8">
+	<title>Log in to DIY Forum</title>
+
+
 </head>
 <body>
-    <ul>
-        <li><a href="home.html"> Home</a></li>
-    </ul>
-    
+<div id="logo">
+<a href="home.html">
+	<img src="images/DIY_Forum_Badge.png" alt="Welcome to DIY Forum" style="width:450px;height:105px">
+</a>
+</div>
+<nav>
+	<ul>
+		<li><a href="index.html">Index</a></li>
+		<li><a href="home.html">Home</a></li>
+		<li><a href="aboutDIYForum.html">About</a></li>
+		<li><a href="DIY_News.html">DIY News</a></li>
+		<li><a href="DIY_Videos.html">DIY Videos</a></li>
+		<li><a href="DIY_interests.html">DIY Interests</a></li>		
+		<li><a href="siteRegistrationForm.html">Register</a></li>
+		<li><a href="DIY_Forum_Support.html">Support</a></li>
+
+	</ul>
+</nav>
+	<h1> Log on to DIY Forum</h1>
+<div class="articles_posting">
     <form>
         <fieldset>
             <legend>Login</legend>
@@ -17,9 +36,22 @@
             <input type="radio" name="rememberusername" value="yes"> Remember Username?<br>
             Password:<br>
             <input type="text" name="password"><br><br>
-            <input type="submit" value="Log in">
+	<button type="submit" onclick="alert('Log on successful. Welcome back!')">Login</button>
+    	<input type="reset">
         </fieldset>
     </form>
+</div>
+    <br/>
+<hr>
+<div  id="DIY_footer">
+    <footer  id="foot" class="style_foot" >
+				
+				<p class="style_foot"><em>Contact Information</em> &#58;  Developer Phone:777-555-9999 &#124; Business 				Email:DIY_Forum_Dev@gmail.com &#124;
+				<em>Disclaimer: All contact info, is false and 	for assignment purposes.</em></p>
+				
+			</footer>
+</div>
+			
         
 </body>
 </html>
