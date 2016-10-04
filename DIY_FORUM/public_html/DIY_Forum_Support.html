@@ -1,30 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
-	<meta charset="utf-8">
-	<title>DIY Forum Support</title>
+	<meta charset="UTF-8">
+	<title>Support</title>
+	
+	<!-- This says our CSS is compatible with phones, and phones
+         don't need to scale it strangely. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Main CSS styles for Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- Optional theme add-on -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+
+	<link rel="stylesheet" href="css/custom.css">
+    
 </head>
+
 <body>
-<div id="logo">
-<a href="home.html">
-	<img src="images/DIY_Forum_Badge.png" alt="Welcome to DIY Forum" style="width:450px;height:105px">
-</a>
+    <!-- Navigation Bar -->  
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar_format">    
+          <div class="container">
+              <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                      <span class="sr-only">Toggle navigation</span>
 
-</div>
+                      <!-- Three line "hamburger" icon for the collapsed navigation -->
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </button>
+           <a class="navbar-brand" href="home.html">DIY Forum</a>
+          </div>
+              <div id="navbar" class="collapse navbar-collapse">	
+                  <ul class ="nav navbar-nav">
+                      <li><a href="index.html">Index</a></li>
+                      <li><a href="home.html">Home</a></li>
+                      <li><a href="aboutDIYForum.html">About</a></li>
+                      <li><a href="DIY_News.html">DIY News</a></li>
+                      <li><a href="DIY_Videos.html">DIY Videos</a></li>
+                      <li><a href="DIY_interests.html">DIY Interests</a></li>
+                      <li><a href="siteRegistrationForm.html">Register</a></li>
+                      <li><a href="sign_in_Form.html">Sign In</a></li>
+                      <li><a href="DIY_Forum_Support.html">Support</a></li>
+                   </ul>
+              </div>
+          </div>
+    </div>
+    </nav>
 
-<nav>
-	<ul>
-		<li><a href="index.html">Index</a></li>
-		<li><a href="home.html">Home</a></li>
-		<li><a href="aboutDIYForum.html">About</a></li>
-		<li><a href="DIY_News.html">DIY News</a></li>
-		<li><a href="DIY_Videos.html">DIY Videos</a></li>
-		<li><a href="DIY_interests.html">DIY Interests</a></li>
-		<li><a href="siteRegistrationForm.html">Register</a></li>
-		<li><a href="sign_in_Form.html">Sign In</a></li>
-	</ul>
-</nav>
+
+    <!-- Main Content -->
+    <div class="container">
+    
+        <!-- Container found below menu bar -->
+        <div class="below_menu_container">
 <h1>Support Links</h1>
 <div id="supp_links">
 <ul>
@@ -32,8 +64,9 @@
 	<li><a href="FAQ.html">DIY FAQ</a></li>
 </ul>
 </div>
+
 <hr>
-<div  id="DIY_footer">
+<div  id="DIY_footer  col-xs-12 col-sm-6 col-md-4 col-lg-3">
 			<footer  id="foot" class="style_foot" >
 				
 				<p class="style_foot"><em>Contact Information</em> &#58;  Developer Phone:777-555-9999 &#124; Business 								Email:DIY_Forum_Dev@gmail.com &#124;
@@ -41,6 +74,11 @@
 				
 			</footer>
 </div>
-	
-</body>
+</div>
+</div>
+
+<!-- Scripts required to make Bootstrap work better. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
 </html>

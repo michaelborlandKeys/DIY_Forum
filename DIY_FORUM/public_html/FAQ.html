@@ -3,16 +3,38 @@
 <head>
 <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
 	<title>DIY FAQ</title>
-</head>
-<body>
-<div id="logo">
-<a href="home.html">
-	<img src="images/DIY_Forum_Badge.png" alt="Welcome to DIY Forum" style="width:450px;height:105px">
-</a>
-</div>
-<nav>
+<!-- This says our CSS is compatible with phones, and phones
+         don't need to scale it strangely. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Main CSS styles for Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-	<ul>
+    <!-- Optional theme add-on -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+
+	<link rel="stylesheet" href="css/custom.css">
+    
+</head>
+
+<body>
+    <!-- Navigation Bar -->  
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar_format">    
+          <div class="container">
+              <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                      <span class="sr-only">Toggle navigation</span>
+
+                      <!-- Three line "hamburger" icon for the collapsed navigation -->
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </button>
+  <a class="navbar-brand" href="home.html">DIY Forum</a>
+          </div>
+              <div id="navbar" class="collapse navbar-collapse">	
+                 <ul class ="nav navbar-nav">
 		<li><a href="index.html">Index</a></li>
 		<li><a href="aboutDIYForum.html">About</a></li>
 		<li><a href="DIY_News.html">DIY News</a></li>
@@ -21,13 +43,24 @@
 		<a href="siteRegistrationForm.html">Registrar</a></li>
 		<li><a href="sign_in_Form.html">Sign In</a></li>
 		<li><a href="DIY_Forum_Support.html">Back To Support</a></li>
-
-	</ul>
-
-
+		</ul>
+	       </div>
 </nav>
 <br>
-<img src="images/undercontruction.png" alt="Page Under Construction Image ">	
+
+<!-- Main Content -->
+    <div class="container">
+<!-- Container found below menu bar -->
+        	<!-- <div class="below_menu_container"> -->
+    	<div class = "jumbotron">
+	
+        <div class="alert alert-danger fade in">
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    <strong>Sorry,</strong> the FAQ page is currently being worked on.
+  </div>	
+	<img src="images/undercontruction.png" alt="Page Under 	Construction Image ">	
+		</div>
+
 
 <hr>
     <div  id="DIY_footer">
@@ -38,5 +71,10 @@
 				
 			</footer>
     </div>	
-</body>
+</div>
+</div>
+<!-- Scripts required to make Bootstrap work better. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
 </html>
