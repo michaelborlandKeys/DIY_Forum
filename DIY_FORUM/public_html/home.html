@@ -1,22 +1,44 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
 	<meta charset="UTF-8">
-	<title>Home</title>
+	<title>DIY Forum Home</title>
+<!-- This says our CSS is compatible with phones, and phones
+         don't need to scale it strangely. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Main CSS styles for Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
+    <!-- Optional theme add-on -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
 
+	<link rel="stylesheet" href="css/custom.css">
+    
 </head>
+
 <body>
-<div id="logo">
-<a href="home.html">
-	<img src="images/DIY_Forum_Badge.png" alt="Welcome to DIY Forum" style="width:80px;height:63px">
-	</a>
-</div>
-	<!-- Page Coded by Michael Borland -->
-	<ul>
+    <!-- Navigation Bar -->  
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar_format">    
+          <div class="container">
+
+              	<div class="navbar-header">
+                  	<button type="button" class="navbar-toggle collapsed" 			data-			toggle="collapse" data-			target="#navbar" aria-			expanded="false" 			aria-controls="navbar">
+                      	<span class="sr-only">Toggle navigation</span>
+
+                      	<!-- Three line "hamburger" icon for the collapsed 					navigation -->
+                      	<span class="icon-bar"></span>
+                      	<span class="icon-bar"></span>
+                      	<span class="icon-bar"></span>
+                  	</button>
+              			<!-- Title on nav bar, hopefully where I can put 				an image 			-->
+              		<a class="navbar-brand" href="home.html">DIY Forum</a>
+            	</div>
+
+           	<div id="navbar" class="collapse navbar-collapse">	
+                  	<ul class ="nav navbar-nav">
 		<li><a href="index.html">Index</a></li>
 		<li><a href="home.html">Home</a></li>
 		<li><a href="aboutDIYForum.html">About</a></li>
@@ -24,26 +46,43 @@
 		<li><a href="DIY_Videos.html">DIY Videos</a></li>
 		<li><a href="DIY_interests.html">DIY Interests</a></li>		
 		<li><a href="siteRegistrationForm.html">Register</a></li>
-		<li><a href="sign_In_Form.html">Sign In</a></li>
+		<li><a href="sign_in_Form.html">Sign In</a></li>
 		<li><a href="DIY_Forum_Support.html">Support</a></li>
 
-	</ul>
+		</ul>
+	</div>
+
+    </div>
+    </nav>
 
 
+    <!-- Main Content -->
+    <div class="container">
+    
+        <!-- Container found below menu bar -->
+        <div class="below_menu_container">
+<h1>Latest DIY Forum News Posts</h1>
 <div class="articles_posting">
 		<article>
-		<h1><u>Latest DIY Forum News Posts</u></h1>
-		<p>This is where we will compile the latest DIY News articles, including the most popular of the DIY News page. This will  be an area where developors will post progress updates of the news section of the site.For now, this site and page section are in the the Alpha stages of development.</p>
+		
+		<p>This is where we will compile the latest DIY News articles, including the most popular of the DIY News page. This will  be an area where developers will post progress updates of the news section of the site. For now, this site and page section are in the Alpha stages of development.</p>
 		</article>
+</div>
+<h1>Latest DIY Forum Video Tutorials</h1>
+<div class="articles_posting">
+		<article>
+		
+		
+		<p>This is another section that with be used for updating users on the latest things going on with the video section of the site. It will also include the most popular DIY videos on the site, but for now it will be used for updating users on development of the page. It will also give release dates for features at a later date. </p>
+		</article>
+</div>
 
+<h1>Updates</h1>
+<div class="articles_posting">
 		<article>
-		<h1><u>Latest DIY Forum Video Tutorials</u></h1>
-		<!-- Footer Developed by Michael Borland-->
-		<p>This is another section that with be useed for updating users on the latest things going on with the video section of the site. It will also include the most popular DIY videos on the site, but for now it will be used for updating users on development of the page. It will also give release dates for features at a later date. </p>
-		</article>
-		<article>
-				<h1><u>Updates</u></h1>
+				
 				<ul>
+<<<<<<< HEAD
 
 					<li>This is where site wide changes will be posted, everytime something noticable will have been changed, with an explanation for why the change occured on the site. All of that can be found under this article</li>
 					<li>update content 1 Michael Borland</li>
@@ -55,18 +94,25 @@
 
 
 
+=======
+					<li>This is where site wide changes will be posted, every time something noticeable will have been changed, with an explanation for why the change occurred on the site. All of that can be found under this article</li>
+>>>>>>> origin/bootstrap_ryan_hovey
 				</ul>
 		</article>
 	</div>
-		<div  id="DIY_footer">
-			<footer  id="foot" class="style_foot" >
-				<em>Contact Information</em>
-				<p class="style_foot"> Developer Phone:777-555-9999</p>
-				<p class="style_foot"> Business Email:DIY_Forum_Dev@gmail.com </p>
-				<em>Disclaimer: All contact info, is false and for assignment purposes.</em>
+	<hr>
+	<div  id="DIY_footer">
+	   <footer  id="foot" class="style_foot" >
+				
+				<p class="style_foot"><em>Contact Information</em> &#58;  Developer Phone:777-555-9999 &#124; Business 				Email:DIY_Forum_Dev@gmail.com &#124;
+				<em>Disclaimer: All contact info, is false and 	for assignment purposes.</em></p>
+				
 			</footer>
-		</div>	
-
-		
-</body>
+	</div>	
+</div>
+</div>
+    <!-- Scripts required to make Bootstrap work better. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
 </html>

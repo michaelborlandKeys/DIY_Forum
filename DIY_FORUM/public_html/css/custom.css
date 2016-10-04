@@ -1,0 +1,26 @@
+.below_menu_container 
+{
+    padding-top: 50px;
+}
+.navbar_format
+{
+    border: 0px;
+    background-color: #485ACF;
+}
+.navbar-inverse .navbar-brand
+{
+    color: white;
+}
+.navbar-inverse .navbar-nav>li>a
+{
+    color: white;
+}
+
+#DIY_footer
+{
+
+}
+
+
+
+
