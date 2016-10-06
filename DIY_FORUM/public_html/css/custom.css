@@ -5,7 +5,7 @@
 .navbar_format
 {
     border: 0px;
-    background-color: #485ACF;
+    background-color: #485BCF;
 }
 .navbar-inverse .navbar-brand
 {
@@ -16,11 +16,9 @@
     color: white;
 }
 
-#DIY_footer
-{
-
-}
-
+.active{
+    color: #00117A;
+    }
 
 
 
