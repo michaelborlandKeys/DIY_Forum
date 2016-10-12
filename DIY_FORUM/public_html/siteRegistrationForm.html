@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+  
 	<meta charset="UTF-8">
 	<title>Register</title>
 
@@ -50,12 +50,12 @@
   <div class="  glyphicon glyphicon-triangle-bottom"></div> DIY Videos</a>
   <ul  class="dropdown-menu">
     <li><a href="DIY_Videos.html">DIY Videos</a></li>
-    <li><a href="fishing_videos.html"> DIY Fishing Videos </a></li>
-    <li><a href="cooking_videos.html">  DIY Cooking Videos </a></li>
-    <li><a href="woodworking_videos.html">DIY Wood Working Videos </a></li>
-    <li><a href="arts_crafts_videos.html"> DIY Arts &amp; Crafts Videos </a></li>
-    <li><a href="elementary_science_videos.html">  DIY Elementary Science Videos </a></li>
-    <li><a href="not_listed_here_videos.html"> DIY Random Videos </a></li>
+    <li><a href="fishing_videos.html">Fishing Videos </a></li>
+    <li><a href="cooking_videos.html">Cooking Videos </a></li>
+    <li><a href="woodworking_videos.html">Wood Working Videos </a></li>
+    <li><a href="arts_crafts_videos.html">Arts &amp; Crafts Videos </a></li>
+    <li><a href="elementary_science_videos.html"> Elementary Science Videos </a></li>
+    <li><a href="not_listed_here_videos.html">Random Videos </a></li>
 </ul>
 </li> 
 
@@ -138,7 +138,7 @@
 		</tr>
 
 	<tr>
-		<td><b>State</b></td>
+		<td><b>State:</b></td>
     	<td><select> 
     	<!--http://alphabetizer.flap.tv/lists/list-of-states-in-alphabetical-order.php This is where i checked the spelling and order of the states at  -->
     		<option  label= "Alabama" value="Alabama"></option>
@@ -226,7 +226,7 @@
 		
 		
 	    <tr>
-		<td><b>Gender:</b></td>	
+		<td id="underline_Gender"><b>Gender:</b></td>	
 		</tr>
 		<tr>
 		<td><label  for="male_Checkbox"> Male</label></td>	
@@ -256,15 +256,15 @@
 
 		<p>Do you agree with Terms and Conditions&quest;<a href="terms_And_Conditions.html">Terms and Conditions</a></p>
 		<label for="i_Agree">Terms And Conditions</label><br />
-		<input type="radio" id="i_Agree" name="i_Agree" value="I Agree" />I Agree<br />
-		<input type="radio" id="i_Disagree" name="i_Disagree" value="I Disagree" />I Disagree<br />
+		<input type="radio" id="i_Agree" name="i_Agree" value="I Agree" />&nbsp;I Agree<br />
+		<input type="radio" id="i_Disagree" name="i_Disagree" value="I Disagree" /> &nbsp;I Disagree<br />
 
 
 		</fieldset>
 		<br />
 		
-			<input  class="btn btn-success btn-sm" type="submit"  role="button" value="Register">
-    			<input  class="btn btn-warning btn-sm" type="submit"  role="button" value="Reset">
+			<input  class="btn btn-sm" id="registration" type="submit"  role="button" value="Register">
+    			<input  class="btn btn-sm" id="reset" type="submit"  role="button" value="Reset">
 		
 
 			</div>
@@ -272,11 +272,10 @@
 </div>
 
 <hr>
-
-<div  class="DIY_footer col-xs-1 col-sm-4 col-md-6 col-lg-12">
-<footer  id="foot" class="style_foot" >				
-<p class="style_foot"><em>Contact Information</em> &#58;  Developer Phone:777-555-9999 &#124; Business Email:DIY_Forum_Dev@gmail.com &#124;
-<em>Disclaimer: All contact info is false and for assignment purposes.</em></p>			
+	<div  class="DIY_footer col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<footer  id="foot" class="style_foot" >       
+<p class="style_foot"><em>Contact Information</em> &#58;  Developer Phone:777-555-9999 &#124; <br />Business Email:DIY_Forum_Dev@gmail.com &#124;
+<em>Disclaimer: All contact info is false and for assignment purposes.</em></p>     
 </footer>
 </div>
 

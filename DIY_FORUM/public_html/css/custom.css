@@ -45,9 +45,25 @@ body
 	color: forestgreen; 
 	
 }
-.style_foot{
+.style_foot
+{
 padding-top: 25px;
 border-top: solid 3px antiquewhite; 
 
+}
+#underline_Gender
+{
+text-decoration: underline;
 
+}
+#registration
+{
+color: white;
+background-color: #485BCF;  
+}
+#reset
+{
+color: white; 
+background-color: black;  
+}
 }
