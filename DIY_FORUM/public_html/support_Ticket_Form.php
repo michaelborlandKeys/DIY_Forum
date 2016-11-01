@@ -20,7 +20,7 @@
 
 <body>
     <!-- Navigation Bar -->
-    <a href="DIY_Forum_Support.php" class="btn btn-lg" id="Support_ticket" role="button"> Back to Support</a> 
+    <a  class="button btn-lg" id="Support_ticket" href="DIY_Forum_Support.php" > Back to Support</a> 
 
 
     <!-- Main Content -->
