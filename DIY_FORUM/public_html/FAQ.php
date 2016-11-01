@@ -19,7 +19,9 @@
 
 <body>
     <!-- Navigation Bar -->  
-      <a  class="btn btn-lg"  id="FAQ" href="DIY_Forum_Support.php">Support</a>
+    <ul>
+      <li><a  class="btn btn-lg" id="FAQ" href="DIY_Forum_Support.php"> Back to Support</a></li>
+    </ul>
 <br>
 
 <!-- Main Content -->

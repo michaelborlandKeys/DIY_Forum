@@ -19,9 +19,10 @@
 </head>
 
 <body>
-    <!-- Navigation Bar -->  
-<a class="btn btn-lg" id="Support_ticket" href="DIY_Forum_Support.php"> Back to Support</a>
-
+    <!-- Navigation Bar -->
+    <ul>
+<li><a class="btn btn-lg" id="Support_ticket" href="DIY_Forum_Support.php"> Back to Support</a></li>
+</ul>  
 
 
     <!-- Main Content -->
