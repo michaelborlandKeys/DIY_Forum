@@ -194,7 +194,7 @@
 	
 		<fieldset style="width:275px">
 
-		<p>Do you agree with Terms and Conditions&quest;<a href="terms_And_Conditions.html">Terms and Conditions</a></p>
+		<p>Do you agree with Terms and Conditions&quest;<a href="terms_And_Conditions.php">Terms and Conditions</a></p>
 		<label for="i_Agree">Terms And Conditions</label><br />
 		<input type="radio" id="i_Agree" name="i_Agree" value="I Agree" />&nbsp;I Agree<br />
 		<input type="radio" id="i_Disagree" name="i_Disagree" value="I Disagree" /> &nbsp;I Disagree<br />

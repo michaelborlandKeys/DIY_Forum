@@ -31,8 +31,8 @@
 <h1>Support Links</h1>
 <div id="supp_links">
 <ul>
-	<li><a href="support_Ticket_Form.html">DIY Support Ticket</a></li>
-	<li><a href="FAQ.html">DIY FAQ</a></li>
+	<li><a href="support_Ticket_Form.php">DIY Support Ticket</a></li>
+	<li><a href="FAQ.php">DIY FAQ</a></li>
 </ul>
 </div>
 

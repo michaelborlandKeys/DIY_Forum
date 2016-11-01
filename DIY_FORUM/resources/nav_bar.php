@@ -46,7 +46,7 @@
     <li><a href="cooking.php"> Cooking Community</a></li>
     <li><a href="woodworking.php">Wood Working Community </a></li>
     <li><a href="arts_crafts.php">Arts &amp; Crafts Community </a></li>
-    <li><a href="elementary_science.php"> Elementary Science</a></li>
+    <li><a href="elementary_science.php">Elementary Science Community</a></li>
     <li><a href="not_listed_here.php"> General Discussion Comunnity </a></li>
 </ul>
 </li> 
