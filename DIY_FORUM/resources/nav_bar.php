@@ -12,7 +12,7 @@
                       	<span class="icon-bar"></span>
                   	</button>
               			<!-- Title on nav bar, hopefully where I can put 				an image 			-->
-              		<a class="navbar-brand" href="home.html">DIY Forum</a>
+              		<a class="navbar-brand" href="home.php">DIY Forum</a>
             	</div>
 
            	    <div id="navbar" class="collapse navbar-collapse">  
