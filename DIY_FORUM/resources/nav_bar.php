@@ -17,10 +17,10 @@
 
            	    <div id="navbar" class="collapse navbar-collapse">  
                     <ul class ="nav navbar-nav">
-    <li><a href="index.html">Index</a></li>
-    <li><a href="home.html">Home</a></li>
-    <li><a href="aboutDIYForum.html">About</a></li>
-    <li><a href="DIY_News.html">DIY News</a></li>
+    <li><a href="index.php">Index</a></li>
+    <li><a href="home.php">Home</a></li>
+    <li><a href="aboutDIYForum.php">About</a></li>
+    <li><a href="DIY_News.php">DIY News</a></li>
 <li class="dropdown">
     
   <a  href="DIY_Videos.html" class="dropdown-toggle" data-toggle="dropdown"> 
