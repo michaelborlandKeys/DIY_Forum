@@ -20,7 +20,7 @@
 <body>
     <!-- Navigation Bar -->  
     <ul>
-      <li><a  class="btn btn-lg" id="FAQ" href="DIY_Forum_Support.php"> Back to Support</a></li>
+      <li><a  class="btn btn-lg" id="FAQ" role="button" href="DIY_Forum_Support.php"> Back to Support</a></li>
     </ul>
 <br>
 
