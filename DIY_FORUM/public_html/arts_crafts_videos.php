@@ -20,67 +20,7 @@
 
 <body>
     <!-- Navigation Bar -->  
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="navbar_format">    
-          <div class="container">
-
-              	<div class="navbar-header">
-                  	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                      	<span class="sr-only">Toggle navigation</span>
-
-                      	<!-- Three line "hamburger" icon for the collapsed 					navigation -->
-                      	<span class="icon-bar"></span>
-                      	<span class="icon-bar"></span>
-                      	<span class="icon-bar"></span>
-                  	</button>
-              			<!-- Title on nav bar, hopefully where I can put 				an image 			-->
-              		<a class="navbar-brand" href="home.html">DIY Forum</a>
-            	</div>
-  <div id="navbar" class="collapse navbar-collapse">  
-                    <ul class ="nav navbar-nav">
-    <li><a href="index.html">Index</a></li>
-    <li><a href="home.html">Home</a></li>
-    <li><a href="aboutDIYForum.html">About</a></li>
-    <li><a href="DIY_News.html">DIY News</a></li>
-    <li class="dropdown , active">
-    
-  <a  href="DIY_Videos.html" class="dropdown-toggle" data-toggle="dropdown"> 
-  <div class="  glyphicon glyphicon-triangle-bottom"></div> DIY Videos</a>
-  <ul  class="dropdown-menu">
-    <li><a href="DIY_Videos.html">DIY Videos</a></li>
-    <li><a href="fishing_videos.html">Fishing Videos </a></li>
-    <li><a href="cooking_videos.html">Cooking Videos </a></li>
-    <li><a href="woodworking_videos.html"> Wood Working Videos </a></li>
-    <li class="active"><a href="arts_crafts_videos.html">Arts &amp; Crafts Videos </a></li>
-    <li><a href="elementary_science_videos.html">Elementary Science Videos </a></li>
-    <li><a href="not_listed_here_videos.html">Random Videos </a></li>
-</ul>
-</li> 
-
-<li class="dropdown">
-    
-  <a  href="DIY_interests.html" class="dropdown-toggle" data-toggle="dropdown"> 
-  <div class="  glyphicon glyphicon-triangle-bottom"></div> DIY Interest</a>
-  <ul  class="dropdown-menu">
-    <li><a href="DIY_interests.html">DIY Interest</a></li>
-    <li><a href="fishing.html"> Fishing Community </a></li>
-    <li><a href="cooking.html"> Cooking Community</a></li>
-    <li><a href="woodworking.html">Wood Working Community </a></li>
-    <li><a href="arts_crafts.html">Arts &amp; Crafts Community </a></li>
-    <li><a href="elementary_science.html"> Elementary Science</a></li>
-    <li><a href="not_listed_here.html"> General Discussion Comunnity </a></li>
-</ul>
-</li> 
-
-    <li><a href="siteRegistrationForm.html">Register</a></li>
-    <li><a href="sign_in_Form.html">Sign In</a></li>
-    <li><a href="DIY_Forum_Support.html">Support</a></li>
-  </ul>
-    	</div>
-          </div>
-    </div>
-    </nav>
-
+      <?php include("../resources/nav_bar.php");?>
 
     <!-- Main Content -->
           <div class="container below_menu_container">
