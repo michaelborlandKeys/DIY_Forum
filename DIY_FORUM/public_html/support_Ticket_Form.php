@@ -21,7 +21,7 @@
 <body>
     <!-- Navigation Bar -->
     <ul>
-<li><a class="btn btn-lg" id="Support_ticket" role="button" href="DIY_Forum_Support.php"> Back to Support</a></li>
+<li><a href="DIY_Forum_Support.php" class="btn btn-lg" id="Support_ticket"> Back to Support</a></li>
 </ul>  
 
 
