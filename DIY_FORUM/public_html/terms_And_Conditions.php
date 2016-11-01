@@ -20,7 +20,7 @@
 
 <body>
     <!-- Navigation Bar -->  
-   <?php include("../resources/nav_bar.php");?>
+  <a href="siteRegistrationForm.php"> Back to Registration</a>
 <br>
 <!-- Main Content -->
     <div class="container">
