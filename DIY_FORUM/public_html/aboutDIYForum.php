@@ -27,15 +27,10 @@
         <!-- Container found below menu bar -->
         <div class="below_menu_container">
             <h1>About DIY Forum</h1>
-            <p>This site is about having a place to discuss hobbies, post news 				articles about DIY topic, videos, and having open forum 			    	discussions as a              community. Our mission is to bring 			DIY 		content to a central place to give people a way 			to do things at 		home. You'll find great ideas 		        	like              speakers made from two plastic cups, how to 				make your own artificial snow, and even great ways to organize 				the clutter in your home. With users 		              				submitting their own ideas every day our site is getting bigger 			all the time, so be sure to come back often.</p>
+            <p>This site is about having a place to discuss hobbies, post news articles about DIY topic, videos, and having open forum discussions as a community. Our mission is to bring DIY content to a central place to give people a way to do things at home. You'll find great ideas like speakers made from two plastic cups, how to make your own artificial snow, and even great ways to organize the clutter in your home. With users submitting their own ideas every day our site is getting bigger all the time, so be sure to come back often.</p>
         </div>
 <hr>
-<div  class="DIY_footer col-xs-12 col-sm-12 col-md-12 col-lg-12">
-<footer  id="foot" class="style_foot" >       
-<p class="style_foot"><em>Contact Information</em> &#58;  Developer Phone:777-555-9999 &#124; <br />Business Email:DIY_Forum_Dev@gmail.com &#124;
-<em>Disclaimer: All contact info is false and for assignment purposes.</em></p>     
-</footer>
-</div>
+<?php include("../resources/footer.php");?>
 
 </div>
     <!-- Scripts required to make Bootstrap work better. -->
