@@ -20,7 +20,7 @@
 
 <body>
     <!-- Navigation Bar -->  
-  <?php include("../resources/nav_bar.php");?>
+<a id="Support_ticket" class="lg-btn btn" href="DIY_Forum_Support.php">Support</a>
 
 
 
