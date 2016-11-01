@@ -79,16 +79,17 @@ color: white;
 }
 #Support_ticket
 {
-display: inline; 
 background-color: #485BCF;  
 color: white;
+display: inline; 
 text-decoration: none;
 
 }
 #FAQ
 {
-display: inline;
-color: white;
-text-decoration: none;
 background-color: #485BCF;  
+color: white;
+display: inline;
+text-decoration: none;
+
 }
