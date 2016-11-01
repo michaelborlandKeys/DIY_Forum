@@ -19,7 +19,7 @@
 
 <body>
     <!-- Navigation Bar -->  
-      <a id="FAQ" class="btn btn-lg"" href="DIY_Forum_Support.php">Support</a>
+      <a  class="btn btn-lg"  id="FAQ" href="DIY_Forum_Support.php">Support</a>
 <br>
 
 <!-- Main Content -->
