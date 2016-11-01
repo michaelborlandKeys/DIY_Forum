@@ -73,17 +73,21 @@ background-color: black;
 }
 #submit_Ticket
 {
-color: white;
 background-color: #485BCF;  
+color: white;
+
 }
 #Support_ticket
 {
+display: inline; 
+background-color: #485BCF;  
 color: white;
 text-decoration: none;
-background-color: #485BCF;  
+
 }
 #FAQ
 {
+display: inline;
 color: white;
 text-decoration: none;
 background-color: #485BCF;  
