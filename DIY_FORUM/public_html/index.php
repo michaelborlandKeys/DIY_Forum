@@ -109,11 +109,6 @@
 	            <td><a href="terms_And_Conditions.php">Terms and Conditions</a></td>
 	            <td>Terms and conditions</td>
 	        </tr>
-	      
-	         <tr>
-	            <td><a href="FAQ.php">FAQ</a></td>
-	            <td>FAQ</td>
-	        </tr>
 	        <tr>
 	        	<td><a href="siteRegistrationForm.php">Register</a></td>
 	        	<td>Register</td>
@@ -126,6 +121,14 @@
 	        <tr>
 	            <td><a href="DIY_Forum_Support.php">Support</a></td>
 	            <td>Support</td>
+	        </tr> 
+	        <tr>
+	            <td><a href="FAQ.php">FAQ</a></td>
+	            <td>FAQ</td>
+	        </tr>
+	        <tr>
+	            <td><a href="support_Ticket_Form.php">FAQ</a></td>
+	            <td>FAQ</td>
 	        </tr>
 	    </tbody>
 	</table>
