@@ -77,11 +77,9 @@ background-color: #485BCF;
 color: white;
 
 }
-.btn-lg
+.btn.btn-lg.go_back
 {
-background-color: #485BCF; 
-}
-.go_back  a
-{
-    text-decoration: none;
+background-color: black; 
+color: white; 
+  text-decoration: none;
 }
