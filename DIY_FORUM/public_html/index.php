@@ -32,7 +32,7 @@
 	<table class="table table-hover">
 	    <tbody>
 	        <tr>
-	            <td><a href="home.html">Home</a></td>
+	            <td><a href="home.php">Home</a></td>
 	            <td>Home page of DIY Forum</td>
 	        </tr>
 	        <tr>
@@ -47,10 +47,37 @@
 	            <td><a href="DIY_Videos.php">Videos</a></td>
 	            <td>DIY videos from around the web</td>
 	        </tr>
+	        <tr>    
 	        <tr>
 	            <td><a href="DIY_interests.php">Interests</a></td>
 	            <td>Discussion page for DIY Forum</td>
 	        </tr>
+
+	            <td><a href="fishing.php">Fishing Community</a></td>
+	            <td>Discussion page for Fishing DIY Community</td>
+	        </tr>
+	           <tr>
+	            <td><a href="cooking.php">Cooking Community</a></td>
+	            <td>Discussion page for Cooking DIY Forum</td>
+	        </tr>
+	        	<tr>
+	            <td><a href="woodworking.php">Wood Working Community</a></td>
+	            <td>Discussion page for Wood Working DIY Forum</td>
+	        </tr>
+	           <tr>
+	            <td><a href="elementary_science.php">Elementary Science Community</a></td>
+	            <td>Discussion page for Elementary Science DIY Forum</td>
+	        </tr>
+	      
+	           <tr>
+	            <td><a href="arts_crafts.php"> Arts &amp; Crafts</a></td>
+	            <td>Discussion page for Arts &amp; Crafts DIY Forum</td>
+	        </tr>
+ 			 <tr>
+	            <td><a href="not_listed_here.php">General Community Discussion</a></td>
+	            <td> General Discussion page for DIY Forum</td>
+	        </tr>
+
 	        <tr>
 	            <td><a href="terms_And_Conditions.php">Terms and Conditions</a></td>
 	            <td>Terms and conditions</td>
