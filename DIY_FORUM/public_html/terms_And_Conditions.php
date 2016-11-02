@@ -20,7 +20,7 @@
 
 <body>
     <!-- Navigation Bar -->  
-  <a href="siteRegistrationForm.php"> Back to Registration</a>
+  <a href="siteRegistrationForm.php" class="btn btn-lg" id="go_back" role="button"> Back to Registration</a>
 <br>
 <!-- Main Content -->
     <div class="container">
