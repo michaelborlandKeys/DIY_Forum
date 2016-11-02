@@ -127,8 +127,8 @@
 	            <td>FAQ</td>
 	        </tr>
 	        <tr>
-	            <td><a href="support_Ticket_Form.php">FAQ</a></td>
-	            <td>FAQ</td>
+	            <td><a href="support_Ticket_Form.php">Support Ticket Form</a></td>
+	            <td>Support Ticket Form</td>
 	        </tr>
 	    </tbody>
 	</table>
