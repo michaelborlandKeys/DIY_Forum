@@ -18,7 +18,7 @@
 </head>
 
 <body>
-<button class="btn btn-lg" id="go_back" role="button"><a href="DIY_Forum_Support.php" > Back to Support</a></button> 
+<button class="btn btn-lg go_back"  role="button"><a href="DIY_Forum_Support.php" > Back to Support</a></button> 
     
 <br>
 

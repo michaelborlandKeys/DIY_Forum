@@ -77,9 +77,10 @@ background-color: #485BCF;
 color: white;
 
 }
-#go_back
+.go_back
 {
-background-color: #485BCF;  
+background-color: #485BCF; 
 color: white;
+text-decoration: none;
 
 }
