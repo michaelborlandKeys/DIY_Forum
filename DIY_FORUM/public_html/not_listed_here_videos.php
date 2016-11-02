@@ -46,7 +46,7 @@
 
    <br /><b>Video By:</b><em>Epic Wildlife</em><br />
     <b> Link to Video&colon; </b><a href="https://www.youtube.com/watch?v=OREq4Jn6ZnQ"> 10 fish catches</a><br /> 
-    <b>Link to channel that Pruduced video go check them out!</b><a href="https://www.youtube.com/channel/UC10Tc1mzoPTibXDyVXFf9fw"></a>
+    <b>Link to channel that Pruduced video go check them out!</b><a href="https://www.youtube.com/channel/UC10Tc1mzoPTibXDyVXFf9fw">Epic Wildlife</a>
 
 </div>
 
