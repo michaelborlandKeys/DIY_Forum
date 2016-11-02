@@ -18,7 +18,7 @@
 </head>
 
 <body>
-<a class="btn-lg" id="FAQ" href="DIY_Forum_Support.php"> Back to Support</a>
+<a  href="DIY_Forum_Support.php"> Back to Support</a>
     
 <br>
 
