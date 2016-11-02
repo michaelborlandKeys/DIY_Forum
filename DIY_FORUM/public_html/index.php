@@ -60,7 +60,7 @@
 	            <td><a href="woodworking_videos.php"> Wood Working Videos</a></td>
 	            <td> Wood Working DIY videos from the Community</td>
 	        </tr>
-	       
+	       		<tr>	
 	            <td><a href="arts_crafts_videos.php">  Arts &amp; Crafts Videos</a></td>
 	            <td> Arts &amp; Crafts DIY videos from the Community</td>
 	        </tr>
