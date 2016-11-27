@@ -18,7 +18,7 @@
 </head>
 
 <body>
-<a href="DIY_Forum_Support.php" class="btn-lg"  role="button"> Back to Support</a>    
+<a href="DIY_Forum_Support.php" class=" btn btn-lg" id = "Back"  role="button"> Back to Support</a>    
 <br>
 
 <!-- Main Content -->

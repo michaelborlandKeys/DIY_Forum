@@ -82,3 +82,9 @@ color: white;
 background-color: #485BCF;  
 color: white;
 }
+#Back:hover
+{ 
+color: white;
+opacity: .5; 
+text-decoration: none;
+}
